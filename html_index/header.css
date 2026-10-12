@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+}
+
+img {
+    height: 100px;
+    border: 3px dotted rgb(227, 255, 174);
+}
+
+.images {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(70, 82, 13);
+    border: 3px solid black;
+}
