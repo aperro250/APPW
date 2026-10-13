@@ -1,0 +1,61 @@
+body{
+	background-color: aquamarine;
+}
+
+p {
+	background-color: white;
+	color: red;
+	border-bottom: dotted;
+	border-top: 3px blue double;
+	border-left: 3px green dotted;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+#yellow {
+	background-color: yellow;
+	color: blue;
+}
+
+dt {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+dd {
+	font-size: 20px;
+}
+dt#internet {
+	background-color: rgb(165, 243, 162);
+	color: rgb(5, 27, 221);
+}
+
+dt#libro{
+	background-color: rgb(39, 233, 32);
+	color: rgb(133, 15, 212);
+}
+
+a {
+	font-size: 60px;
+	color: brown;
+	background-color: white;
+}
+
+blue {
+	color: rgb(96, 96, 248);
+}
+red {
+	color: rgb(243, 75, 75);
+}
+
+yellow {
+	color: #FDBE04;
+}
+
+green {
+	color: rgb(16, 180, 16);
+}
