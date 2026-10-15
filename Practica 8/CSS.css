@@ -2,7 +2,7 @@ body{
 	background-color: aquamarine;
 }
 
-p {
+p#comienzo {
 	background-color: white;
 	color: red;
 	border-bottom: dotted;
@@ -16,6 +16,11 @@ p {
 	font-weight: bolder;
 }
 
+p#tabla {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bolder;
+}
 #yellow {
 	background-color: yellow;
 	color: blue;
@@ -39,6 +44,45 @@ dt#libro{
 	color: rgb(133, 15, 212);
 }
 
+table,td {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+table td {
+	height: 80px;
+	width: 100px;
+
+	text-align: center;
+	background-color: yellowgreen;
+}
+
+table tr#table_l td{
+	background-color: aliceblue;
+	text-align: center;
+
+}
+
+table tr#table_l td li{
+	text-align: left;
+}
+
+#rowspan_3{
+	background-color: rgb(158, 117, 197);
+}
+
+#rowspan_5 {
+	background-color: #171717;
+}
+
+
+#colspan_4 {
+	background-color: cadetblue;
+}
+
+#colspan_2 {
+	background-color: #FDBE04;
+}
 a {
 	font-size: 60px;
 	color: brown;
