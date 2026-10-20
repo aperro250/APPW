@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(200, 250, 233);
+}
+
+h1#titulo {
+	text-align: center;
+}
+
+dl#a dt {
+	border: 2px black dotted;
+}
+
+dl#b dt {
+	border: 2px black solid;
+}
+
+dt c{
+	background-color: rgb(255, 176, 103);
+}
+li.bold {
+	font-weight: bolder;
+	font-size: 24px;
+}
