@@ -1,0 +1,52 @@
+body {
+	background-color: rgb(200, 250, 233);
+}
+
+h1#titulo {
+	text-align: center;
+	border: 2px black solid;
+	margin-left: 20%;
+	margin-right: 20%;
+
+	padding: 20px;
+}
+
+dl#a dt {
+	border: 2px black dotted;
+	margin-right: 80%;
+	margin-left: 5%;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 0.5%;
+
+	font-weight: bolder;
+}
+
+dl#b dt {
+	border: 2px black solid;
+	margin-right: 80%;
+	margin-left: 5%;
+	text-align: center;
+	padding: 0.5%;
+	font-weight: bolder;
+}
+
+/*dt c{
+	background-color: rgb(255, 176, 103);
+}*/
+
+dd {
+
+	margin: 1%;
+	margin-left: 7%;
+	margin-top: 8px;
+}
+
+dl li {
+	margin: 5px;
+}
+li.bold {
+	font-weight: bolder;
+	font-size: 24px;
+} 
+
