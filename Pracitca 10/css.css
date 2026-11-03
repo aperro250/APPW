@@ -1,0 +1,43 @@
+ul a:link {
+	color: green;
+
+}
+
+ul a:hover {
+	/*font-size: 40px;*/
+	background-color: yellow;
+}
+
+ul a:active {
+	background-color: rgb(0, 110, 255);
+}
+
+ul a:visited {
+	background-color: rgb(24, 255, 43);
+}
+
+a.button{
+	border: 1px outset #CCC ;
+	background: #EEE;
+	text-decoration: none;
+	color: #222;
+	padding: .1em .5em;
+}
+
+a.button:hover {
+	background: #CCB;
+}
+
+a.button:active {
+	border: 1px inset #000
+}
+ul {
+	list-style: none;
+	display: flex;
+	margin-left: 20%;
+	margin-right: 15%;
+}
+
+ul li {
+	margin: 5px;
+}

@@ -1,0 +1,10 @@
+
+
+div#rojo{
+	background-color: red;
+}
+
+div div{
+	padding: 10%;
+	margin-right: 80%;
+}

@@ -1,0 +1,27 @@
+body{
+	background-color: rgb(253, 237, 217);
+}
+
+td {
+	border: 2px black solid;
+	border-collapse: collapse;
+	empty-cells: hide;
+
+}
+table{
+	width: 300px;
+	height: 120px;
+	border: none;
+}
+
+/*td.fila1 {
+	border-top: none; 
+}
+td.fila2 {
+	border-bottom: none;
+}
+
+td{
+	border-right: 4px red dotted;
+	empty-cells: hide;
+}*/
