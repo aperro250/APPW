@@ -1,0 +1,25 @@
+h1 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+p.formato1 {
+	font: 18px Arial;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+p.formato2 {
+	font: 9p Verdana;
+	font-weight: bold;
+}
+
+p.formato3 span {
+	font: 12p Tahoma;
+	text-decoration: line-through ;
+	color: green;
+	text-decoration-color: green;
+}
