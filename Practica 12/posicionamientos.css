@@ -1,0 +1,36 @@
+body {
+	background-color: aquamarine;
+}
+
+div {
+	position: fixed;
+	left: 30%;
+}
+
+txt {
+	position: fixed;
+
+	color: black;
+
+	/*z-index: 2;*/
+}
+
+img {
+	width: 50%;
+
+	position: fixed;
+
+	/*z-index: 1;*/
+}
+
+txt#uno{
+	top: 5%;
+}
+
+img {
+	top: 10%;
+}
+
+txt#dos{
+	top:35%;
+}
