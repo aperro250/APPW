@@ -1,0 +1,40 @@
+body {
+	background-color: aquamarine;
+}
+
+div{
+	height: 150px;
+	width: 150px;
+	/*border: 2px rgb(101, 182, 164) solid;*/
+	position: absolute;
+	border-radius: 90px;
+	opacity: 0.6;
+}
+
+div#general {
+	position: fixed;
+	height: 300px;
+	width: 300px;
+	border: 3px black solid;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div#uno {
+	top: 25px;
+	left: 25px;
+	background-color: red;
+	z-index: 3;
+}
+div#dos {
+	top: 130px;
+	left: 75px;
+	background-color: green;
+	z-index: 2;
+}
+
+div#tres {
+	top: 25px;
+	left: 125px;
+	background-color: blue;
+	z-index: 3;
+}
