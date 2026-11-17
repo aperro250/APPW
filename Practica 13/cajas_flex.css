@@ -1,0 +1,28 @@
+body {
+	background-color: aqua;
+}
+
+a {
+	border: 1px black solid;
+}
+div#flex {
+	/*Definicion de que se utilizara las configuraciones de cajas flex*/
+	display: flex;
+	/* Justificacion. Usando actualmente columnas con contenido puesto al reves */
+	flex-direction: column-reverse;
+	/*Justificacion vertical*/
+	justify-content:center;
+	/* Justificacion gorizontal*/
+	align-items: center;
+	/* Daja pasar a multiples linesas si no caben*/
+	flex-wrap: wrap;
+	/*Separacion entre elementos*/
+	gap: 10px;
+
+	background-color: brown;
+
+	height: 300px;
+	width: 200px;
+
+	margin-left: 30%;
+}
