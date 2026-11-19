@@ -23,3 +23,17 @@ p.formato3 span {
 	color: green;
 	text-decoration-color: green;
 }
+
+blockquote p#formato4 {
+	text-decoration: overline;
+	text-transform: uppercase;
+	text-align: justify;
+}
+
+p.formato5 {
+	text-transform: lowercase;
+	color: red;
+	text-indent: 5%;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}

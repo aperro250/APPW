@@ -1,0 +1,46 @@
+h1 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+div {
+	height: 200px;
+	width: 200px;
+}
+/* -- FORMATO 11 --*/
+#formato11 {
+	background-color: aqua;
+}
+
+/* -- FORMATO 12 -- */
+
+.formato12 {
+	background: url("src/Fondo.jpeg") fixed;
+}
+
+/* -- FORMATO 13 -- */
+
+.formato13 {
+	border-style: solid;
+	border-width: 10px;
+}
+
+/* -- FORMATO 14 -- */
+
+.formato14 {
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+}
+
+/* -- FORMATO 15 -- */
+
+div.formato15 {
+	border-left: 5px green double;
+	border-right: 10px black double;
+
+	background-color: yellow;
+	color: blue;
+}

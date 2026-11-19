@@ -1,0 +1,60 @@
+h1 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+table td {
+	border: 1px black solid;
+	height: 100px;
+	width: 100px;
+}
+/* Caso que todas las primeras letras de todas las palabras en grande*/
+div.formato6 {
+	color: blue;
+	text-decoration: underline;
+	font: 10px Arial;
+	text-indent: 10%;
+	line-height: 2;
+	/* Caso que todas las primeras letras de todas las palabras en grande*/
+	text-transform: capitalize;
+}
+
+/* Caso de que solo la primera letra del parrafo en grande
+div.formato6::first-letter {
+	text-transform: capitalize;
+}
+*/
+
+.formato7 {
+	color: brown;
+	font: 12px Verdana;
+	text-indent: 5%;
+	word-spacing: 15px;
+}
+
+/* -- FORMATO 8 --*/
+
+a {
+	color: orange;
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+
+/* -- FORMATO 9 -- */
+
+table td {
+	color: green;
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+
+/*-- FORMATO 10 -- */
+
+body {
+	background-image: url("src/Fondo.jpeg");
+	background-attachment: fixed;
+}
+
