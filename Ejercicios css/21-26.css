@@ -1,0 +1,120 @@
+h1 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+table td {
+	border: 1px black solid;
+	
+}
+/*Por alguna razon este body no funciona*/
+body{
+    position: relative;
+    z-index: 10;
+}
+
+h5 {
+	text-align: center;
+}
+/* -- FORMATO 21 --*/
+div.formato21 {
+    height: 2cm;
+    width: 2cm;
+
+    border: 1mm black solid;
+    background-color: gray;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+/* Doy espacio para poner el bloc de div en centro y lo demas APROXIMADAMENTE abajo*/
+h4#h4_formato23 {
+    margin-top: 500px;
+}
+/* -- FORMATO 22 --*/
+
+div.formato22 {
+    height: 2cm;
+    width: 2cm;
+
+    border: 3px blue double;
+    background-color: orange;
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+/* -- FORMATO 23 --*/
+div.formato23 {
+    height: 2cm;
+    width: 2cm;
+
+    border: 1px red double;
+    background-color: blue;
+    color: white;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+/* -- FORMATO 24 --*/
+div.formato24 {
+    height: 2cm;
+    width: 2cm;
+
+    border: 1px green double;
+    background-color: yellow;
+
+    position: fixed;
+    /* Codigo correcto
+    bottom: 0px;
+    left: 0px;
+    */
+
+    /*Lo muevo arriba a la derecha para no colapsar con el formato 23*/
+    right: 0px;
+    top: 0px;
+}
+/* -- FORMATO 25 --*/
+
+div.formato25 {
+    height: 50%;
+    width: 50%;
+
+    border: 2px black solid;
+
+    background-image: url(src/Fondo.jpeg);
+    background-attachment: fixed;
+
+    position: fixed;
+    top: 20%;
+    left: 25%;
+
+    z-index: 2;
+
+    overflow: auto;
+}
+
+/* -- FORMATO 26 --*/
+table.formato26 {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+table.formato26 td {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+
+    text-align: center;
+}
+table.formato26 td:hover{
+    height: 200px;
+    width: 200px;
+
+    background-color: rgb(150, 150, 218);
+}
