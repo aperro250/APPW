@@ -5,3 +5,66 @@ h1 {
 h4 {
 	text-align: center;
 }
+
+table td {
+	border: 1px black solid;
+	
+}
+
+table {
+	border-collapse: collapse;
+}
+
+div {
+	height: 100px;
+	width: 100px;
+}
+
+/* -- FORMATO 16 --*/
+table tr {
+	border: 5px green solid;
+	background-color: orange;
+	color: blue;
+}
+
+/* -- FORMATO 17 --*/
+
+div.formato17 {
+	border: 7px red solid;
+	background-color: green;
+	font: 10px Arial;
+	color: black;
+	padding: 2%;
+	text-align: justify;
+}
+/* -- FORMATO 18 --*/
+
+p#formato18 {
+	border: 2mm blue double;
+	
+	padding-top: 5mm;
+	padding-left: 1cm;
+
+	margin-top: 10%;
+	margin-left: 25%;
+}
+
+/* -- FORMATO 19 --*/
+
+div.formato19 {
+	border: 2px black solid;
+	background-color: yellow;
+	width: 50%;
+	height: 1cm;
+}
+/* -- FORMATO 20 --*/
+
+p.formato20 {
+	float: right;
+	border: 3px orange double;
+	background-color: green;
+	color: white;
+	width: 1cm;
+	height: 1cm;
+	
+}
